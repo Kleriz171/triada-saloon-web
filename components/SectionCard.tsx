@@ -17,25 +17,41 @@ export default function SectionCard({ href, title, statement, cta, imageSrc }: P
       className="group relative block aspect-[4/5] overflow-hidden bg-sand"
     >
       {imageSrc ? (
-        <Image
-          src={imageSrc}
-          alt={title}
-          fill
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
-          sizes="(max-width: 768px) 100vw, 50vw"
-        />
+        <>
+          <Image
+            src={imageSrc}
+            alt={title}
+            fill
+            className="object-cover transition-transform duration-700 group-hover:scale-105"
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
+          {/* Scrim so the label stays readable over any photo. */}
+          <div className="absolute inset-0 bg-gradient-to-t from-ink/70 via-ink/10 to-transparent" />
+        </>
       ) : (
         <div className="absolute inset-0 bg-gradient-to-b from-sand to-cream" />
       )}
 
-      <div className="absolute inset-0 bg-ink/0 transition-colors duration-500 group-hover:bg-ink/20" />
-
       <div className="relative flex h-full flex-col justify-end p-6 md:p-8">
-        <p className="font-serif text-2xl text-charcoal md:text-3xl">{title}</p>
-        <p className="mt-1 text-xs uppercase tracking-[0.25em] text-charcoal/50">
+        <p
+          className={`font-serif text-2xl md:text-3xl ${
+            imageSrc ? "text-cream" : "text-charcoal"
+          }`}
+        >
+          {title}
+        </p>
+        <p
+          className={`mt-1 text-xs uppercase tracking-[0.25em] ${
+            imageSrc ? "text-cream/70" : "text-charcoal/50"
+          }`}
+        >
           {statement}
         </p>
-        <span className="mt-4 inline-flex items-center gap-2 text-xs uppercase tracking-widest text-charcoal opacity-0 transition-opacity duration-300 group-hover:opacity-100">
+        <span
+          className={`mt-4 inline-flex items-center gap-2 text-xs uppercase tracking-widest opacity-0 transition-opacity duration-300 group-hover:opacity-100 ${
+            imageSrc ? "text-cream" : "text-charcoal"
+          }`}
+        >
           {cta} →
         </span>
       </div>
