@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Home",
+    "hair": "Hair",
+    "makeup": "Makeup",
+    "nails": "Nails",
+    "esthetics": "Esthetics",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "common": {
+    "bookOnWhatsapp": "Book on WhatsApp",
+    "whatsappMessage": "Hello Triada! I'd like to book an appointment.",
+    "viewSection": "View more",
+    "instagramFollowers": "20k+ on Instagram",
+    "followInstagram": "Follow us on Instagram"
+  },
+  "home": {
+    "heroEyebrow": "Triada Estetic Center",
+    "heroTitle": "Your beauty, crafted with art.",
+    "heroSubtitle": "Hair, makeup, nails and esthetics — in an elegant space in the heart of the city.",
+    "sectionsTitle": "Our services",
+    "instagramTeaser": "See our work every day on Instagram."
+  },
+  "sections": {
+    "hair": {
+      "statement": "FLOKË / HAIR",
+      "title": "Hair",
+      "intro": "Color, cuts and styling that bring out the best in your hair."
+    },
+    "makeup": {
+      "statement": "MAKE-UP / MAKEUP",
+      "title": "Makeup",
+      "intro": "From a natural everyday look to bridal and event makeup."
+    },
+    "nails": {
+      "statement": "THONJ / NAILS",
+      "title": "Nails",
+      "intro": "Manicure, pedicure and nail art done with care and hygiene."
+    },
+    "esthetics": {
+      "statement": "ESTETIKË / SKIN",
+      "title": "Esthetics",
+      "intro": "Facials, laser hair removal and treatments for healthy skin."
+    }
+  },
+  "servicesHeading": "Services",
+  "galleryHeading": "Gallery",
+  "about": {
+    "title": "About Us",
+    "intro": "Triada Estetic Center was built on a simple idea: every client should feel cared for and beautiful.",
+    "body": "Our team blends experience, hygiene and a passion for beauty in a space where you can relax and leave feeling confident in yourself."
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "Message us on WhatsApp to book your appointment.",
+    "addressLabel": "Address",
+    "hoursLabel": "Hours",
+    "hoursValue": "Mon–Sat, 09:00–19:00",
+    "followLabel": "Follow us"
+  },
+  "footer": {
+    "tagline": "Your beauty, crafted with art.",
+    "rights": "All rights reserved."
+  }
+}

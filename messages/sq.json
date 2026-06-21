@@ -1,0 +1,66 @@
+{
+  "nav": {
+    "home": "Kreu",
+    "hair": "Flokë",
+    "makeup": "Make-up",
+    "nails": "Thonj",
+    "esthetics": "Estetikë",
+    "about": "Rreth Nesh",
+    "contact": "Kontakt"
+  },
+  "common": {
+    "bookOnWhatsapp": "Rezervo në WhatsApp",
+    "whatsappMessage": "Përshëndetje Triada! Dëshiroj të rezervoj një termin.",
+    "viewSection": "Shiko më shumë",
+    "instagramFollowers": "20 mijë+ në Instagram",
+    "followInstagram": "Na ndiq në Instagram"
+  },
+  "home": {
+    "heroEyebrow": "Triada Estetic Center",
+    "heroTitle": "Bukuria jote, e kuruar me art.",
+    "heroSubtitle": "Flokë, make-up, thonj dhe estetikë — në një ambient elegant në zemër të qytetit.",
+    "sectionsTitle": "Shërbimet tona",
+    "instagramTeaser": "Shiko punën tonë çdo ditë në Instagram."
+  },
+  "sections": {
+    "hair": {
+      "statement": "FLOKË / HAIR",
+      "title": "Flokë",
+      "intro": "Ngjyrosje, prerje dhe styling që nxjerrin më të mirën nga flokët e tu."
+    },
+    "makeup": {
+      "statement": "MAKE-UP / MAKEUP",
+      "title": "Make-up",
+      "intro": "Nga looku natyral i përditshëm te make-up-i i nusërisë dhe eventeve."
+    },
+    "nails": {
+      "statement": "THONJ / NAILS",
+      "title": "Thonj",
+      "intro": "Manikyr, pedikyr dhe nail art i punuar me kujdes dhe higjienë."
+    },
+    "esthetics": {
+      "statement": "ESTETIKË / SKIN",
+      "title": "Estetikë",
+      "intro": "Pastrim fytyre, heqje qimesh me lazer dhe trajtime për lëkurë të shëndetshme."
+    }
+  },
+  "servicesHeading": "Shërbimet",
+  "galleryHeading": "Galeria",
+  "about": {
+    "title": "Rreth Nesh",
+    "intro": "Triada Estetic Center është krijuar me një ide të thjeshtë: çdo klient të ndihet i kujdesur dhe i bukur.",
+    "body": "Ekipi ynë kombinon përvojën, higjienën dhe pasionin për bukurinë në një ambient ku ti mund të relaksohesh dhe të largohesh me besim te vetja."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "intro": "Na shkruaj në WhatsApp për të rezervuar terminin tënd.",
+    "addressLabel": "Adresa",
+    "hoursLabel": "Orari",
+    "hoursValue": "Hënë–Shtunë, 09:00–19:00",
+    "followLabel": "Na ndiq"
+  },
+  "footer": {
+    "tagline": "Bukuria jote, e kuruar me art.",
+    "rights": "Të gjitha të drejtat e rezervuara."
+  }
+}
