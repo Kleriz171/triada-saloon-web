@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import { sections } from "@/config/site";
@@ -23,10 +24,18 @@ export default function Navbar() {
       <nav className="container-editorial flex h-16 items-center justify-between md:h-20">
         <Link
           href="/"
-          className="font-serif text-xl tracking-tight md:text-2xl"
+          aria-label="Triada Estetic Center"
+          className="flex items-center"
           onClick={() => setOpen(false)}
         >
-          Triada
+          <Image
+            src="/logo-nav.png"
+            alt="Triada Estetic Center"
+            width={460}
+            height={450}
+            priority
+            className="h-11 w-auto md:h-14"
+          />
         </Link>
 
         {/* Desktop nav */}
