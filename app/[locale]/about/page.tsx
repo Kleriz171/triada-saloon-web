@@ -26,7 +26,7 @@ export default async function AboutPage({
       </section>
 
       {/* Photos of the space — wired in once client sends them. */}
-      <Gallery heading="" images={[]} placeholderCount={4} />
+      <Gallery heading="" items={[]} placeholderCount={4} />
     </>
   );
 }

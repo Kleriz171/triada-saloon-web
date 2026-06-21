@@ -43,17 +43,31 @@ These are placeholders in the code until the client provides real values:
 - [ ] **Logo** + final brand colors → `tailwind.config.ts` (`accent`) and Navbar
 - [ ] **Confirm service lists** per section → `content/services.ts`
 
-## Adding photos to a section
+## Adding photos & videos to a section
 
-Drop files in `public/images/hair/` (etc.), then pass them to the section page:
+Drop photos in `public/images/hair/` and clips in `public/videos/hair/`, then pass
+them to the section page as a single `media` list (photos and videos can be mixed —
+order is preserved in the grid):
 
 ```tsx
 // app/[locale]/hair/page.tsx
-<SectionPage
-  locale={locale}
-  section="hair"
-  images={[{ src: "/images/hair/1.jpg", alt: "Balayage" }]}
-/>
+import type { GalleryItem } from "@/components/Gallery";
+
+const media: GalleryItem[] = [
+  { src: "/images/hair/1.jpg", alt: "Balayage" },
+  {
+    type: "video",
+    src: "/videos/hair/transformation.mp4",
+    poster: "/images/hair/1.jpg", // still frame shown before it plays
+    alt: "Transformim flokësh",
+  },
+  { src: "/images/hair/2.jpg", alt: "Prerje" },
+];
+
+<SectionPage locale={locale} section="hair" media={media} />
 ```
 
-Galleries render neutral placeholder tiles until real photos are added.
+**Video tips:** keep clips short (~5–15s), use `.mp4` (H.264), muted, ideally
+square or 3:4 portrait to match the grid. They autoplay (muted, looping) only while
+on screen and stay paused for users with reduced-motion enabled — so always provide a
+`poster` image. Galleries render neutral placeholder tiles until real media is added.
