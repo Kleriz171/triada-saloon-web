@@ -7,8 +7,8 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 
 // Cover image for each section card on the home page.
 const sectionCovers: Record<Section, string> = {
-  hair: "/images/hair/hair-2.jpg",
-  makeup: "/images/makeup/makeup-1-poster.jpg",
+  hair: "/images/hair/hair-7.jpg",
+  makeup: "/images/makeup/makeup-6.jpg",
   nails: "/images/nails/nails-1.jpg",
   esthetics: "/images/esthetics/esthetics-1.jpg",
 };
@@ -28,7 +28,7 @@ export default async function HomePage({
         eyebrow={t("home.heroEyebrow")}
         title={t("home.heroTitle")}
         subtitle={t("home.heroSubtitle")}
-        imageSrc="/images/hair/hair-1.jpg"
+        imageSrc="/images/hair/hair-8.jpg"
       >
         <WhatsAppButton />
       </Hero>

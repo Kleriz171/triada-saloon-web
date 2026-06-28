@@ -12,7 +12,7 @@
     "bookOnWhatsapp": "Book on WhatsApp",
     "whatsappMessage": "Hello Triada! I'd like to book an appointment.",
     "viewSection": "View more",
-    "instagramFollowers": "20k+ on Instagram",
+    "instagramFollowers": "12k+ on Instagram",
     "followInstagram": "Follow us on Instagram"
   },
   "home": {
@@ -56,7 +56,7 @@
     "intro": "Message us on WhatsApp to book your appointment.",
     "addressLabel": "Address",
     "hoursLabel": "Hours",
-    "hoursValue": "Mon–Sat, 09:00–19:00",
+    "hoursValue": "Every day, 09:00–20:00",
     "followLabel": "Follow us"
   },
   "footer": {

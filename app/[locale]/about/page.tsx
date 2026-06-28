@@ -28,8 +28,15 @@ export default async function AboutPage({
       {/* Photos of the space. */}
       <Gallery
         heading=""
-        items={[{ src: "/images/about/space-1.jpg", alt: "Ambienti i sallonit Triada" }]}
-        placeholderCount={4}
+        items={[
+          { src: "/images/about/stations.jpg", alt: "Stacionet e flokëve – ambienti i sallonit Triada" },
+          { src: "/images/about/brand.jpg", alt: "Triada Estetic Center – brandi" },
+          { src: "/images/about/treatment-room.jpg", alt: "Dhoma e trajtimeve estetike" },
+          { src: "/images/about/pedicure.jpg", alt: "Zona e manikyr & pedikyr" },
+          { src: "/images/about/owner.jpg", alt: "Triada Estetic Center" },
+          { src: "/images/about/exterior.jpg", alt: "Ambienti i jashtëm i sallonit Triada" },
+          { src: "/images/about/space-1.jpg", alt: "Ambienti i sallonit Triada" },
+        ]}
       />
     </>
   );

@@ -4,12 +4,14 @@
 export const siteConfig = {
   name: "Triada Estetic Center",
   // International format, digits only (no +, no spaces) — used to build wa.me links.
-  whatsappNumber: "355000000000", // TODO(client): replace with real number
+  // Local: 068 308 8896 → +355 68 308 8896
+  whatsappNumber: "355683088896",
   instagram: "https://www.instagram.com/triada_estetic_center",
   instagramHandle: "@triada_estetic_center",
-  // TODO(client): real address + Google Maps embed URL
-  address: "Tiranë, Shqipëri",
-  mapsEmbedUrl: "",
+  // From the salon's own Google listing (Rruga Tom Plezha, Tiranë). TODO(client): confirm building no.
+  address: "Rruga Tom Plezha, Tiranë 1050",
+  mapsEmbedUrl:
+    "https://maps.google.com/maps?q=Triada%20Estetic%20Center%2C%20Rruga%20Tom%20Plezha%2C%20Tiran%C3%AB&z=16&output=embed",
   email: "",
 };
 
