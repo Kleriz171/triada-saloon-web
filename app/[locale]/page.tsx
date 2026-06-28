@@ -17,7 +17,7 @@ export async function generateMetadata({
 
 // Cover image for each section card on the home page.
 const sectionCovers: Record<Section, string> = {
-  hair: "/images/hair/hair-7.jpg",
+  hair: "/images/hair/hair-10.jpg",
   makeup: "/images/makeup/makeup-6.jpg",
   nails: "/images/nails/nails-1.jpg",
   esthetics: "/images/esthetics/esthetics-1.jpg",
