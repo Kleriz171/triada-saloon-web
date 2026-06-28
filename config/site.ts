@@ -12,10 +12,11 @@ export const siteConfig = {
   address: "Rruga Sokrat Miho, Tiranë 1000",
   mapsEmbedUrl:
     "https://maps.google.com/maps?cid=10485296304097975113&z=16&output=embed",
-  // Canonical Google Business links (CID 10485296304097975113 = Triada Estetic Center).
+  // Canonical Google Business links. CID 10485296304097975113 = Triada Estetic Center;
+  // writereview needs the ChIJ place id (CID is not accepted there).
   googleMapsUrl: "https://www.google.com/maps?cid=10485296304097975113",
   googleReviewUrl:
-    "https://search.google.com/local/writereview?placeid=10485296304097975113",
+    "https://search.google.com/local/writereview?placeid=ChIJdQTjoHkxUBMRSdt5Ym9Bg5E",
   email: "",
 };
 
