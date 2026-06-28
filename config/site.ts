@@ -3,6 +3,8 @@
 
 export const siteConfig = {
   name: "Triada Estetic Center",
+  // Canonical production domain (used for metadata, sitemap, structured data).
+  url: "https://triadaestetic.com",
   // International format, digits only (no +, no spaces) — used to build wa.me links.
   // Local: 068 308 8896 → +355 68 308 8896
   whatsappNumber: "355683088896",
@@ -18,6 +20,10 @@ export const siteConfig = {
   googleReviewUrl:
     "https://search.google.com/local/writereview?placeid=ChIJdQTjoHkxUBMRSdt5Ym9Bg5E",
   email: "",
+  // E.164 phone for tel: links and structured data.
+  phone: "+355683088896",
+  // Coordinates of the salon (from the Google listing).
+  geo: { latitude: 41.3302247, longitude: 19.7819398 },
 };
 
 // Build a tap-to-chat WhatsApp link with a pre-filled message.

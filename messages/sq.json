@@ -62,6 +62,36 @@
     "viewOnMaps": "Shiko në Google Maps",
     "leaveReview": "Lër një vlerësim në Google"
   },
+  "seo": {
+    "home": {
+      "title": "Triada Estetic Center — Sallon Bukurie në Tiranë",
+      "description": "Sallon bukurie elegant në Tiranë: flokë, make-up, thonj dhe estetikë. Balayage, hair extensions, mbushje buzësh, heqje qimesh me lazer dhe solarium. Rezervo në WhatsApp."
+    },
+    "hair": {
+      "title": "Flokë — Ngjyrosje, Balayage & Hair Extensions",
+      "description": "Ngjyrosje, balayage, prerje, trajtim keratine dhe hair extensions në Triada Estetic Center, Tiranë. Rezervo në WhatsApp."
+    },
+    "makeup": {
+      "title": "Make-up — Ditor, Nusërie & Full Glam",
+      "description": "Make-up ditor, nusërie, eventi dhe full glam nga artistët e Triada Estetic Center, Tiranë. Rezervo në WhatsApp."
+    },
+    "nails": {
+      "title": "Thonj — Manikyr, Pedikyr & Nail Art",
+      "description": "Manikyr gel, ndërtim thonjsh, nail art dhe pedikyr në Triada Estetic Center, Tiranë. Rezervo në WhatsApp."
+    },
+    "esthetics": {
+      "title": "Estetikë — Pastrim Fytyre, Lazer, Filler & Solarium",
+      "description": "Pastrim fytyre, heqje qimesh me lazer, mezoterapi, mbushje me filler, trajtime anti-rrudhë dhe solarium në Triada Estetic Center, Tiranë."
+    },
+    "about": {
+      "title": "Rreth Nesh",
+      "description": "Njihu me Triada Estetic Center në Tiranë — ekipi, ambienti dhe pasioni ynë për bukurinë."
+    },
+    "contact": {
+      "title": "Kontakt & Vendndodhja",
+      "description": "Na gjej në Rruga Sokrat Miho, Tiranë. Hapur çdo ditë 09:00–20:00. Rezervo në WhatsApp ose lër një vlerësim në Google."
+    }
+  },
   "footer": {
     "tagline": "Bukuria jote, e kuruar me art.",
     "rights": "Të gjitha të drejtat e rezervuara."

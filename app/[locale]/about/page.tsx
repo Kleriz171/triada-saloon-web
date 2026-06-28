@@ -2,6 +2,16 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import Gallery from "@/components/Gallery";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { metadataForPage } from "@/lib/seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}) {
+  const { locale } = await params;
+  return metadataForPage(locale, "about", "/about");
+}
 
 export default async function AboutPage({
   params,

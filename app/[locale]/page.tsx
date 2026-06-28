@@ -4,6 +4,16 @@ import { sections, siteConfig, type Section } from "@/config/site";
 import Hero from "@/components/Hero";
 import SectionCard from "@/components/SectionCard";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { metadataForPage } from "@/lib/seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}) {
+  const { locale } = await params;
+  return metadataForPage(locale, "home", "", true);
+}
 
 // Cover image for each section card on the home page.
 const sectionCovers: Record<Section, string> = {

@@ -62,6 +62,36 @@
     "viewOnMaps": "View on Google Maps",
     "leaveReview": "Leave a Google review"
   },
+  "seo": {
+    "home": {
+      "title": "Triada Estetic Center — Beauty Salon in Tirana",
+      "description": "Elegant beauty salon in Tirana: hair, makeup, nails and esthetics. Balayage, hair extensions, lip filler, laser hair removal and solarium. Book on WhatsApp."
+    },
+    "hair": {
+      "title": "Hair — Coloring, Balayage & Extensions",
+      "description": "Coloring, balayage, cuts, keratin treatment and hair extensions at Triada Estetic Center, Tirana. Book on WhatsApp."
+    },
+    "makeup": {
+      "title": "Makeup — Day, Bridal & Full Glam",
+      "description": "Day, bridal, event and full glam makeup by the artists at Triada Estetic Center, Tirana. Book on WhatsApp."
+    },
+    "nails": {
+      "title": "Nails — Manicure, Pedicure & Nail Art",
+      "description": "Gel manicure, nail extensions, nail art and pedicure at Triada Estetic Center, Tirana. Book on WhatsApp."
+    },
+    "esthetics": {
+      "title": "Esthetics — Facials, Laser, Filler & Solarium",
+      "description": "Facial cleansing, laser hair removal, mesotherapy, filler, anti-wrinkle treatments and solarium at Triada Estetic Center, Tirana."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Meet Triada Estetic Center in Tirana — our team, our space and our passion for beauty."
+    },
+    "contact": {
+      "title": "Contact & Location",
+      "description": "Find us at Rruga Sokrat Miho, Tirana. Open every day 09:00–20:00. Book on WhatsApp or leave a Google review."
+    }
+  },
   "footer": {
     "tagline": "Your beauty, crafted with art.",
     "rights": "All rights reserved."
