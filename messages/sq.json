@@ -57,7 +57,10 @@
     "addressLabel": "Adresa",
     "hoursLabel": "Orari",
     "hoursValue": "Çdo ditë, 09:00–20:00",
-    "followLabel": "Na ndiq"
+    "followLabel": "Na ndiq",
+    "googleLabel": "Na gjej në Google",
+    "viewOnMaps": "Shiko në Google Maps",
+    "leaveReview": "Lër një vlerësim në Google"
   },
   "footer": {
     "tagline": "Bukuria jote, e kuruar me art.",

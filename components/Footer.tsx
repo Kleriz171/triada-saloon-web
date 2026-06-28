@@ -50,6 +50,26 @@ export default function Footer() {
                 Instagram {siteConfig.instagramHandle}
               </a>
             </li>
+            <li>
+              <a
+                href={siteConfig.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-colors hover:text-accent"
+              >
+                {t("contact.viewOnMaps")}
+              </a>
+            </li>
+            <li>
+              <a
+                href={siteConfig.googleReviewUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-colors hover:text-accent"
+              >
+                {t("contact.leaveReview")}
+              </a>
+            </li>
             <li className="text-charcoal/70">{siteConfig.address}</li>
           </ul>
         </div>

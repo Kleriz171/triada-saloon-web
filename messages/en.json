@@ -57,7 +57,10 @@
     "addressLabel": "Address",
     "hoursLabel": "Hours",
     "hoursValue": "Every day, 09:00–20:00",
-    "followLabel": "Follow us"
+    "followLabel": "Follow us",
+    "googleLabel": "Find us on Google",
+    "viewOnMaps": "View on Google Maps",
+    "leaveReview": "Leave a Google review"
   },
   "footer": {
     "tagline": "Your beauty, crafted with art.",

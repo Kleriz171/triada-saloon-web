@@ -47,6 +47,30 @@ export default async function ContactPage({
             </a>
           </div>
 
+          <div>
+            <p className="text-xs uppercase tracking-widest text-charcoal/50">
+              {t("googleLabel")}
+            </p>
+            <div className="mt-2 flex flex-col gap-2">
+              <a
+                href={siteConfig.googleMapsUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex w-fit items-center gap-2 text-lg transition-colors hover:text-accent"
+              >
+                {t("viewOnMaps")} <span aria-hidden>→</span>
+              </a>
+              <a
+                href={siteConfig.googleReviewUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex w-fit items-center gap-2 text-lg transition-colors hover:text-accent"
+              >
+                {t("leaveReview")} <span aria-hidden>→</span>
+              </a>
+            </div>
+          </div>
+
           <WhatsAppButton />
         </div>
 

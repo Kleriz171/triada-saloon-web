@@ -8,10 +8,14 @@ export const siteConfig = {
   whatsappNumber: "355683088896",
   instagram: "https://www.instagram.com/triada_estetic_center",
   instagramHandle: "@triada_estetic_center",
-  // From the salon's own Google listing (Rruga Tom Plezha, Tiranë). TODO(client): confirm building no.
-  address: "Rruga Tom Plezha, Tiranë 1050",
+  // From the salon's own Google Business listing.
+  address: "Rruga Sokrat Miho, Tiranë 1000",
   mapsEmbedUrl:
-    "https://maps.google.com/maps?q=Triada%20Estetic%20Center%2C%20Rruga%20Tom%20Plezha%2C%20Tiran%C3%AB&z=16&output=embed",
+    "https://maps.google.com/maps?cid=10485296304097975113&z=16&output=embed",
+  // Canonical Google Business links (CID 10485296304097975113 = Triada Estetic Center).
+  googleMapsUrl: "https://www.google.com/maps?cid=10485296304097975113",
+  googleReviewUrl:
+    "https://search.google.com/local/writereview?placeid=10485296304097975113",
   email: "",
 };
 
