@@ -38,9 +38,9 @@ export default async function HomePage({
         eyebrow={t("home.heroEyebrow")}
         title={t("home.heroTitle")}
         subtitle={t("home.heroSubtitle")}
-        imageSrc="/images/hair/hair-8.jpg"
+        portraitSrc="/images/home/hero.jpg"
       >
-        <WhatsAppButton />
+        <WhatsAppButton className="!bg-cream !text-charcoal hover:!bg-accent hover:!text-cream" />
       </Hero>
 
       {/* Social proof */}
