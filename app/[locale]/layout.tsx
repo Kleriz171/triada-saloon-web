@@ -76,7 +76,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className={`${playfair.variable} ${inter.variable}`}>
       <body>
-        <JsonLd />
+        <JsonLd locale={locale} />
         <NextIntlClientProvider>
           <Navbar />
           <main>{children}</main>

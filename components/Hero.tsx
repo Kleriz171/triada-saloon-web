@@ -9,6 +9,7 @@ type Props = {
   imageSrc?: string;
   // Portrait photo: full-bleed on mobile, right-hand half of a split hero from md up.
   portraitSrc?: string;
+  portraitAlt?: string;
   children?: ReactNode;
 };
 
@@ -18,6 +19,7 @@ export default function Hero({
   subtitle,
   imageSrc,
   portraitSrc,
+  portraitAlt = "",
   children,
 }: Props) {
   if (portraitSrc) {
@@ -26,7 +28,7 @@ export default function Hero({
         <div className="absolute inset-0 md:left-1/2">
           <Image
             src={portraitSrc}
-            alt=""
+            alt={portraitAlt}
             fill
             priority
             className="object-cover object-[50%_30%]"

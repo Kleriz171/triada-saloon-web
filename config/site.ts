@@ -32,6 +32,9 @@ export function whatsappLink(message: string): string {
   return `https://wa.me/${siteConfig.whatsappNumber}?text=${text}`;
 }
 
+// Bump when page content meaningfully changes; feeds sitemap <lastmod>.
+export const contentUpdated = new Date("2026-10-23");
+
 // The four showcase sections (route segments) in display order.
 export const sections = ["hair", "makeup", "nails", "esthetics"] as const;
 export type Section = (typeof sections)[number];

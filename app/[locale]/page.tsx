@@ -39,6 +39,7 @@ export default async function HomePage({
         title={t("home.heroTitle")}
         subtitle={t("home.heroSubtitle")}
         portraitSrc="/images/home/hero.jpg"
+        portraitAlt={t("home.heroImageAlt")}
       >
         <WhatsAppButton className="!bg-cream !text-charcoal hover:!bg-accent hover:!text-cream" />
       </Hero>

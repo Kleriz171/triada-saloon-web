@@ -1,8 +1,12 @@
-import { siteConfig } from "@/config/site";
+import { getTranslations } from "next-intl/server";
+import type { Locale } from "@/i18n/routing";
+import { sections, siteConfig } from "@/config/site";
+import { getServices } from "@/content/services";
 
 // LocalBusiness (BeautySalon) structured data — helps Google show the salon
 // in local/map results with address, hours, phone and social profiles.
-export default function JsonLd() {
+export default async function JsonLd({ locale }: { locale: Locale }) {
+  const t = await getTranslations({ locale, namespace: "sections" });
   const data = {
     "@context": "https://schema.org",
     "@type": "BeautySalon",
@@ -43,6 +47,24 @@ export default function JsonLd() {
         closes: "20:00",
       },
     ],
+    inLanguage: locale,
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: siteConfig.name,
+      itemListElement: sections.map((s) => ({
+        "@type": "OfferCatalog",
+        name: t(`${s}.title`),
+        url: `${siteConfig.url}/${locale}/${s}`,
+        itemListElement: getServices(locale, s).map((svc) => ({
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: svc.name,
+            description: svc.description,
+          },
+        })),
+      })),
+    },
     hasMap: siteConfig.googleMapsUrl,
     sameAs: [siteConfig.instagram, siteConfig.googleMapsUrl],
   };
